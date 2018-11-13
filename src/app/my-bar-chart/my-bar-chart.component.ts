@@ -42,7 +42,7 @@ export class MyBarChartComponent implements OnInit {
     this.barChartColors = [
       {
         borderColor: 'gray',
-        backgroundColor: gradient,
+        backgroundColor: [ gradient, 'yellow']
         //pointRadius: 8, //not for bar chart
         // pointBackgroundColor: 'yellow',
       }

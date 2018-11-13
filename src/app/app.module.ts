@@ -6,19 +6,21 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MyBarChartComponent } from './my-bar-chart/my-bar-chart.component';
+import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
 
 const routes: Routes = [
   {path: 'bar-chart', component: MyBarChartComponent},
   // {path: 'doughnut-chart', component: MyDoughnutChartComponent},
   // {path: 'radar-chart', component: MyRadarChartComponent},
-  // {path: 'pie-chart', component: MyPieChartComponent},
+  {path: 'pie-chart', component: MyPieChartComponent},
   {path: '**', component: MyBarChartComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyBarChartComponent
+    MyBarChartComponent,
+    MyPieChartComponent
   ],
   imports: [
     BrowserModule,
