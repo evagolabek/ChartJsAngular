@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { MyBarChartComponent } from './my-bar-chart/my-bar-chart.component';
 import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
 import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
+import { ChartsContainerComponent } from './charts-container/charts-container.component';
+//import { MyAreaChartComponent } from './my-area-chart/my-area-chart.component';
 
 const routes: Routes = [
   {path: 'bar-chart', component: MyBarChartComponent},
@@ -22,7 +24,9 @@ const routes: Routes = [
     AppComponent,
     MyBarChartComponent,
     MyPieChartComponent,
-    MyLineChartComponent
+    MyLineChartComponent,
+    ChartsContainerComponent,
+    //MyAreaChartComponent
   ],
   imports: [
     BrowserModule,
