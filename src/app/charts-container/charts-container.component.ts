@@ -7,19 +7,18 @@ import { LineChart } from '../my-line-chart/my-line-chart.component';
   styleUrls: ['./charts-container.component.css']
 })
 export class ChartsContainerComponent implements OnInit {
-  salesOctober: LineChart;
+  salesWinter: LineChart;
 
   constructor() { }
 
   ngOnInit() {
-    this.salesOctober ={
-      title: "Sales October",
-      infoText: "my info text",
-      lineDataPoints: [
-        {name: 'pen', value: 35},
-        {name: 'notebook', value: 28},
-        {name: 'rubber', value: 10}
-      ]
+    this.salesWinter ={
+      title: "Sales Winter",
+      data: [
+        {data: [40, 50, 60, 20], label: 'Sweaters'},
+        {data: [60, 80, 20, 40], label: 'Trousers'}
+      ],
+      labels: ['December', 'January', 'February', 'March']
     };
-}
+  }
 }
