@@ -9,6 +9,7 @@ import { MyBarChartComponent } from './my-bar-chart/my-bar-chart.component';
 import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
 import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
 import { ChartsContainerComponent } from './charts-container/charts-container.component';
+import { TextDisplayComponent } from './text-display/text-display.component';
 //import { MyAreaChartComponent } from './my-area-chart/my-area-chart.component';
 
 const routes: Routes = [
@@ -26,6 +27,7 @@ const routes: Routes = [
     MyPieChartComponent,
     MyLineChartComponent,
     ChartsContainerComponent,
+    TextDisplayComponent,
     //MyAreaChartComponent
   ],
   imports: [
