@@ -1,4 +1,5 @@
 import { Component, OnInit, ElementRef, ViewChild, Input} from '@angular/core';
+import { TextDisplayComponent } from '../text-display/text-display.component';
 
 @Component({
   selector: 'app-my-line-chart',
@@ -7,6 +8,7 @@ import { Component, OnInit, ElementRef, ViewChild, Input} from '@angular/core';
 })
 export class MyLineChartComponent implements OnInit {
   @Input() lineChart: LineChart;
+  
 
   title: string;
   lineChartData: Array<any>;
@@ -74,11 +76,13 @@ export class MyLineChartComponent implements OnInit {
 
 export interface LineChart {
   title: string;
-  data: LineDataPoint[];
   labels: string[];
+  data: LineDataPoint[];
+  
 }
 export interface LineDataPoint {
   label: string;
   data: number[];
 }
+
 

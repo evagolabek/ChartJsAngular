@@ -1,4 +1,5 @@
 import { Component, OnInit, ElementRef, ViewChild} from '@angular/core';
+import deferred from 'chartjs-plugin-deferred';
 
 @Component({
   selector: 'app-my-pie-chart',
@@ -12,9 +13,20 @@ export class MyPieChartComponent implements OnInit {
   public pieChartData = [120, 150]; //, 180, 90];
   public pieChartType = 'pie';
 
+  public pieChartOptions = {
+    plugins: {
+      deferred: {
+        xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
+        yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
+        delay: 200      // delay of 500 ms after the canvas is considered inside the viewport
+      }
+    }
+  };
+
   constructor() { }
 
   @ViewChild("myCanvas") canvas: ElementRef;
+  @ViewChild('myChart') myChart;
   chartColors;
 
   ngOnInit() {
@@ -32,6 +44,10 @@ export class MyPieChartComponent implements OnInit {
         backgroundColor: [gradient1, gradient2]
       }
     ];
+
+
+    this.myChart.pluginService.register(deferred);
+
   }
 
 }

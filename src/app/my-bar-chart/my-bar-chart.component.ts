@@ -17,7 +17,12 @@ export class MyBarChartComponent implements OnInit {
       'green',   // color for data at index 1
       'yellow',  // color for data at index 2
       'black',  // color for data at index 3
-    ]
+    ],
+    hover: {
+      // Overrides the global setting
+      mode: 'index'
+  }
+    
   };
   public barChartLabels = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
   public barChartType = 'bar';
@@ -42,7 +47,8 @@ export class MyBarChartComponent implements OnInit {
     this.barChartColors = [
       {
         borderColor: 'gray',
-        backgroundColor: [ gradient, 'yellow']
+        backgroundColor: [ gradient, 'yellow'],
+        hoverBackgroundColor: [ gradient, 'yellow'],
         //pointRadius: 8, //not for bar chart
         // pointBackgroundColor: 'yellow',
       }
