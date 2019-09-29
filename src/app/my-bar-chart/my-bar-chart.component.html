@@ -1,5 +1,6 @@
-<div>
-  <div style="display: block">
+<div class="chart-wrappper" id="test">
+  <p>This is my bar chart yey!!!</p>
+  <div class="my-canvas"  style="display: block">
     <canvas #myCanvas baseChart
             [datasets]="barChartData"
             [labels]="barChartLabels"
@@ -8,5 +9,6 @@
             [legend]="barChartLegend"
             [chartType]="barChartType">
     </canvas>
+    <button (click)="download()">download </button>
   </div>
 </div>
