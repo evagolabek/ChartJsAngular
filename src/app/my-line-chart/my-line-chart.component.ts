@@ -7,82 +7,107 @@ import { TextDisplayComponent } from '../text-display/text-display.component';
   styleUrls: ['./my-line-chart.component.css']
 })
 export class MyLineChartComponent implements OnInit {
-  @Input() lineChart: LineChart;
-  
 
-  title: string;
-  lineChartData: Array<any>;
-  lineChartLabels: Array<any>;
+  //getter and setter for the line chart input
+  _lineChart: LineChart;
+  get lineChart(): LineChart {
+    return this._lineChart;
+  }
+  @Input('lineChart')
+  set lineChart(value: LineChart) {
+    this._lineChart = value;
+    this.renderChart();
+  }
 
-  // public lineChartData:Array<any> = [
-  //   {data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A'},
-  //   {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
-  // ];
-  // public lineChartLabels:Array<any> = ['January', 'February', 'March', 'April'];
-
-  public lineChartOptions:any = {
-    responsive: true
-  };
-  public lineChartLegend:boolean = true;
-  public lineChartType:string = 'line';
+  @ViewChild('myCanvas') canvas: ElementRef<any>;
 
   constructor() { }
 
-  makeGradient(col1: String, col2: String){
-    let gradient = this.canvas.nativeElement.getContext('2d').createLinearGradient(0, 0, 1000, 1000);
-    gradient.addColorStop(0, col1);
-    gradient.addColorStop(1, col2);
-    return gradient
- }
+  //instantiate the intial values or permantent (colors)
+  title: string;
+  infoText: string;
+  lineChartLabels: string[];
+  lineChartDataSets: object[];
+  
+  lineChartColors =  [
+    { backgroundColor: 'blue', borderColor: 'blue', pointRadius: 1 },
+    { backgroundColor: 'red', borderColor: 'red', pointRadius: 1 },
+    { backgroundColor: 'green', borderColor: 'green', pointRadius: 1 },
+    { backgroundColor: 'orange', borderColor: 'orange', pointRadius: 1 },
+    { backgroundColor: 'yellow', borderColor: 'yellow', pointRadius: 1 },
+    { backgroundColor: '#28c80f', borderColor: '#00c76f', pointRadius: 1 },
+    { backgroundColor: '#28c80f', borderColor: '#00c76f', pointRadius: 1 },
+  ];
 
-  @ViewChild("myCanvas") canvas: ElementRef;
-  lineChartColors;
+  lineChartType = 'line';
+  lineChartOptions = {
+    tooltips: {
+      backgroundColor: '#000',
+      bodyFontColor: '#FFFFFF',
+      bodyFontSize: 14,
+      displayColors: false
+    },
+    hover: { mode: null },
+    scaleShowVerticalLines: false,
+    maintainAspectRatio: false,
+    scales: {
+      yAxes: [{
+        ticks: {
+          beginAtZero: true,
+          callback: function(value) {if (value % 1 === 0) {return value;}}
+        },
+        scaleLabel: {
+          display: true,
+          labelString: ''
+        }
+      }],
+      xAxes: [{
+        ticks: {
+          autoSkip: false,
+        },
+        scaleLabel: {
+          display: true,
+          labelString: ''
+        },
+      }]
+    }
+  };
 
-  ngOnInit() {
+  lineChartLegend = true;
+  
+
+  renderChart() {
     this.title = this.lineChart.title;
-    // this.lineChartLabels = this.lineChart.lineDataPoints.map(LineDataPoint => LineDataPoint.name);
-    this.lineChartData = this.lineChart.data;
-    this.lineChartLabels = this.lineChart.labels;
-
-    let gradient1 = this.makeGradient('yellow', 'black');
-    let gradient2 = this.makeGradient('blue', 'orange');
-
-    // let gradient2 = this.canvas.nativeElement.getContext('2d').createLinearGradient(0, 0, 0, 200);
-    // gradient2.addColorStop(0, 'yellow');
-    // gradient2.addColorStop(1, 'green');
-
-    this.lineChartColors = [
-      {
-        borderColor: gradient1,
-        backgroundColor: 'rgba(255, 255, 255, 0)',
-        // // borderColor: 'rgba(148,159,177,1)',
-        // pointBackgroundColor: 'rgba(148,159,177,1)',
-        // pointBorderColor: '#fff',
-        // pointHoverBackgroundColor: '#fff',
-        // pointHoverBorderColor: 'rgba(148,159,177,0.8)',
-        // pointRadius: 15,
-      },
-      {
-        borderColor: gradient2,
-        backgroundColor: 'rgba(255, 255, 255, 0)', 
-        // pointBackgroundColor: 'rgba(77,83,96,1)',
-        // pointBorderColor: '#fff',
-        // pointHoverBackgroundColor: '#fff',
-        // pointHoverBorderColor: 'rgba(77,83,96,1)'
-      }
-    ];
+    this.infoText = this.lineChart.infoText;
+    this.lineChartOptions.scales.yAxes[0].scaleLabel.labelString = this.lineChart.yLabel;
+    this.lineChartOptions.scales.xAxes[0].scaleLabel.labelString = this.lineChart.xLabel;
+    this.lineChartLabels = this.lineChart.lineChartLabels;
+    this.lineChartDataSets = this.lineChart.lineChartData.map(x => 
+      ({
+        data: x.data,
+        label: x.label,
+        fill: false,
+        borderWidth: 0,
+      })
+    );
   }
-};
+
+  ngOnInit() { }
+}
 
 export interface LineChart {
   title: string;
-  labels: string[];
-  data: LineDataPoint[];
-  
-}
-export interface LineDataPoint {
-  label: string;
-  data: number[];
+  infoText: string;
+  lineChartLabels: string[];
+  lineChartData: LineChartData[];
+  // lineChartColors: string[];??
+  xLabel: string;
+  yLabel: string;
+  legend1?: string;
+  legend2?: string;
 }
 
-
+export interface LineChartData {
+  label: string; // company
+  data: number[]; // monthlyUsage
+}

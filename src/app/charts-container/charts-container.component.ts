@@ -10,28 +10,56 @@ import * as sal from 'sal.js'
 })
 export class ChartsContainerComponent implements OnInit {
   salesWinter: LineChart;
-  availableProducts: TextDisplay;
+  // availableProducts: TextDisplay;
+  
 
 
 
   constructor() {}
 
   ngOnInit() {
+    this.resetData();
+    this.salesWinter = {
+      infoText: 'some info text',
+      title: 'title',
+      // legend1: 'legend 1', //should be an array of companies ??
+      // legend2: 'legend 2',
+      xLabel: ' period',
+      yLabel:' amount',
+      lineChartLabels: [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September'],
+      //get the data from observable into my chart - maybe tap?
+      lineChartData: [ 
+        {
+         label: 'Kadek', 
+         data: [ 8, 9, 11, 13, 12],
+        },
+        {
+          label: 'Polpharma', 
+          data: [ 21, 18, 17, 20, 19]
+         },
+         {
+          label: 'Roumof', 
+          data: [ 34, 22, 16, 19, 28]
+         },
+         {
+          label: 'Plok', 
+          data: [ 41, 38, 45, 40, 43]
+         },
+      ],
+    };
+    
+  }
 
-    sal();
-
-    // this.salesWinter = {
-    //   name: "Sales Winter",
-    //   data: [
-    //     {data: [40, 50, 60, 20], label: 'Sweaters'},
-    //     {data: [60, 80, 20, 40], label: 'Trousers'}
-    //   ],
-    //   labels: ['December', 'January', 'February', 'March']
-    // };
-
-    this.availableProducts = {
-      name: "Available Products",
-      text: "23/90"
+  resetData() {
+    this.salesWinter = {
+      title: 'Open en gesloten tickets',
+      infoText: 'Aangemaakte en afgehandelde tickets',
+      lineChartLabels: [],
+      lineChartData: [],
+      xLabel: 'Maand',
+      yLabel: 'Tickets',
+      legend1: 'Open tickets',
+      legend2: 'Gesloten tickets',
     };
   }
 }

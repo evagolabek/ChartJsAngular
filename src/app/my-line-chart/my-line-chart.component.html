@@ -1,13 +1,10 @@
-<div style="display: block;">
-  <canvas #myCanvas baseChart width="400" height="400"
-    [datasets]="lineChartData"
-    [labels]="lineChartLabels"
-    [options]="lineChartOptions"
-    [colors]="lineChartColors"
-    [legend]="lineChartLegend"
-    [chartType]="lineChartType"
-    (chartHover)="chartHovered($event)"
-    (chartClick)="chartClicked($event)"
-  ></canvas>
-  <h5>{{title}}</h5>
+<div class="line-chart">
+  <div class="chart-height-setter">
+      <h4 class="header-chart">{{title}}</h4>
+  <canvas baseChart #myCanvas [datasets]="lineChartDataSets" [labels]="lineChartLabels"
+    [options]="lineChartOptions" [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType"></canvas>
+  <span class="chart-info">
+    <!-- <app-tooltip [text]="infoText"></app-tooltip> -->
+  </span>
+</div>
 </div>

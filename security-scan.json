@@ -1,0 +1,3090 @@
+module.exports.TEMPLATES = 
+  [
+    {
+      "id": "d35756c7-f647-4f50-9c4f-cf7a81eff80b",
+      "label": "Security Scan",
+      "description": "Beveiligingsonderzoek",
+      "createDate": "2019-10-01T14:50:34.9102111Z",
+      "lastEditDate": "2019-10-01T14:50:34.9103059Z",
+      "version": 1,
+      "status": "Active",
+      "reporting": "Security",
+      "sections": [
+ //section 1        
+        {
+          "label": "Bewustzijn",
+          "description": "",
+          "tags": null,
+          "categories": 
+          [
+            //cat 1 of section 1
+            {
+              "label": "Maatregelen",
+              "description": "",
+              "questions": [
+                {
+                  "id": "a4805782-507f-40e2-9a16-5e598d2c6b92",
+                  "question": "Maak je medewerkers bewust van digitaal veilig werken?",
+                  "label": "Digitaal veilig werken",
+                  "reason": "64% van alle ondernemingen komt in aanraking met cybercriminelen. Het vergroten van de bewustzijn onder medewerkers verkleint de risico's die dit met zich meebrengt. Zorg er daarom dus voor iedereen exact weet wat ze wel en niet moeten doen op het gebied van cybersecurity. ",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "fd972ce6-c5f8-4bb3-87c1-9917fad032e2",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "cc3d2200-a1c3-4197-bf7d-84bb97cf2d7d",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "f6da341d-ddfa-4686-a0b6-83177296b2a2",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "0a241459-3ff5-465b-bd54-16d75fd434a3",
+                  "question": "Wanneer heb je voor het laatst met jouw medewerkers een security awareness (bewustwordings) sessie gedaan?",
+                  "label": "Bewustwordingssessie",
+                  "reason": "64% van alle ondernemingen komt in aanraking met cybercriminelen. Het vergroten van de bewustzijn onder medewerkers verkleint de risico's die dit met zich meebrengt. Zorg er daarom dus voor iedereen exact weet wat ze wel en niet moeten doen op het gebied van cybersecurity. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "17b7c3e4-af56-4547-acfd-4e99e80395bc",
+                      "answer": "Minder dan 6 maanden geleden",
+                      "score": 10
+                    },
+                    {
+                      "id": "6c87bfb7-8caf-42f6-a64c-7b9b5e834a95",
+                      "answer": "Minder dan een jaar geleden",
+                      "score": 8
+                    },
+                    {
+                      "id": "7a3b1e73-63d6-4ce1-974e-45a4ac004b57",
+                      "answer": "Tussen 1 en 2 jaar geleden",
+                      "score": 4
+                    },
+                    {
+                      "id": "125bda0b-d583-4be5-a475-244a2d6d610f",
+                      "answer": "Langer dan 2 jaar geleden",
+                      "score": 2
+                    },
+                    {
+                      "id": "695ad44a-ae39-481a-96e0-69f1b0eb125e",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "e5de1f58-9529-4192-a3b5-9e3ebf16ed3d",
+                  "question": "Wanneer heb je voor het laatst een phishingtest bij jouw medewerkers gedaan?",
+                  "label": "Phishingtest",
+                  "reason": "10% van alle ondernemingen komt in aanraking met phishing. Het vergroten van de kennis van phishing verkleint de risico's en geeft medewerkers instructies wat ze wel en wat ze zeker niet moeten doen in een soortgelijke situatie. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "c4ef55ba-f037-4432-b4c4-d54320d0b9cc",
+                      "answer": "Minder dan 6 maanden geleden",
+                      "score": 10
+                    },
+                    {
+                      "id": "5fd27640-449b-4030-a813-66fda7e777fd",
+                      "answer": "Minder dan een jaar geleden",
+                      "score": 8
+                    },
+                    {
+                      "id": "e3be0cad-bd9f-4480-89b2-3de42ac13017",
+                      "answer": "Tussen 1 en 2 jaar geleden",
+                      "score": 2
+                    },
+                    {
+                      "id": "0ff9014f-b302-45a4-ad23-301db3716d45",
+                      "answer": "Nooit",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "f8021229-9966-4f4e-a277-d05bd76fd2e7",
+                  "question": "Heb jij gebruikersinstructies opgesteld in de vorm van een handleiding/tutorial?",
+                  "label": "Gebruikersinstructies",
+                  "reason": "64% van alle ondernemingen komt in aanraking met cybercriminelen. Organisaties doen er daarom goed aan om medewerkers te instrueren wat ze wel en wat ze vooral niet moeten doen. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "35851654-dd80-406f-bc55-2ea3428cfd33",
+                      "answer": "Ja, namelijk een handleiding specifiek voor elke medewerker",
+                      "score": 8
+                    },
+                    {
+                      "id": "c004a9be-b01d-4655-9ff1-5602645d8a93",
+                      "answer": "Ja, we hebben een tutorial opgenomen in ons klantportaal",
+                      "score": 2
+                    },
+                    {
+                      "id": "e3458b1e-03d5-4a3c-9e06-5ebe4157f0f1",
+                      "answer": "Ja, we hebben een tutorial opgenomen in ons klantportaal en een handleiding geschreven voor elke medewerker",
+                      "score": 10
+                    },
+                    {
+                      "id": "b86b2672-6252-417a-abb5-b672bda30f01",
+                      "answer": "Nee, ik zie daar de toegevoegde waarde niet van in",
+                      "score": 1
+                    },
+                    {
+                      "id": "553759d7-62e0-41e0-aa8f-70d5954e29a0",
+                      "answer": "Nee, daar heb ik geen tijd voor",
+                      "score": 1
+                    },
+                    {
+                      "id": "5e04ec07-93ed-4780-8884-dfc8fd7b3868",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "7e025ee7-7fc0-4a69-8173-9278e907d1bf",
+                  "question": "Wanneer heb je voor het laatst deze gebruikersinstructies geupdate?",
+                  "label": "Updaten van deze instructies",
+                  "reason": "64% van alle ondernemingen komt in aanraking met cybercriminelen. Organisaties doen er daarom goed aan om medewerkers te instrueren wat ze wel en wat ze vooral niet moeten doen. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "b0c798eb-5b16-4f71-8382-5b7f0229850e",
+                      "answer": "Minder dan 6 maanden geleden",
+                      "score": 10
+                    },
+                    {
+                      "id": "448b41bd-7969-4ca9-a5fc-952585e138a8",
+                      "answer": "Minder dan een jaar geleden",
+                      "score": 6
+                    },
+                    {
+                      "id": "9f05e5fc-eb3b-478b-b994-4f23d5df9bb5",
+                      "answer": "Tussen 1 en 2 jaar geleden",
+                      "score": 4
+                    },
+                    {
+                      "id": "68ba9d76-9ef1-422f-8023-cfec94668aba",
+                      "answer": "Nooit",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "e38a7bb3-585a-44db-9651-1b09c822684b",
+                  "question": "Heb je voor de medewerkers regels opgesteld zodat zij op de hoogte zijn welke apparatuur bedrijfseigendom is en welke regels hierbij horen?",
+                  "label": "Regels bedrijfseigendom",
+                  "reason": "64% van alle ondernemingen komt in aanraking met cybercriminelen. Organisaties doen er daarom goed aan om medewerkers te instrueren wat ze wel en wat ze vooral niet moeten doen. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "6d14908a-9c7f-4393-b720-fff8cb9de8d2",
+                      "answer": "Ja, we hebben de medewerkers persoonlijk geinformeerd",
+                      "score": 4
+                    },
+                    {
+                      "id": "f81e88da-3d44-48bf-b31f-b86ef42eb4f7",
+                      "answer": "Ja, we hebben de medewerkers een mail gestuurd",
+                      "score": 4
+                    },
+                    {
+                      "id": "641275a6-611e-46db-b4a8-797df430991a",
+                      "answer": "Ja, we hebben een handleiding opgesteld waar dit in benoemd is.",
+                      "score": 4
+                    },
+                    {
+                      "id": "2463d0a4-5a7b-4373-b372-9a27b4745f9c",
+                      "answer": "Alle bovenstaande antwoorden zijn juist",
+                      "score": 10
+                    },
+                    {
+                      "id": "251ba62b-1b86-4631-95c8-6402ed43d11c",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "5cd937bb-e15d-46d3-a591-2b72bd056d37",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "d6937629-dd68-4f3a-914e-271c0a198ceb",
+                  "question": "Wanneer heb je voor het laatst deze regels geupdate?",
+                  "label": "Updaten regels bedrijfseigendom",
+                  "reason": "64% van alle ondernemingen komt in aanraking met cybercriminelen. Organisaties doen er daarom goed aan om medewerkers te instrueren wat ze wel en wat ze vooral niet moeten doen. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "0697c162-e7ff-4e10-ab77-41300b4f6010",
+                      "answer": "Minder dan 6 maanden geleden",
+                      "score": 10
+                    },
+                    {
+                      "id": "1358eee0-0462-46e4-ae1d-3b5f0a2b1772",
+                      "answer": "Minder dan een jaar geleden",
+                      "score": 6
+                    },
+                    {
+                      "id": "6764b685-0338-42f1-a718-98a8db2021ea",
+                      "answer": "Tussen 1 en 2 jaar geleden",
+                      "score": 2
+                    },
+                    {
+                      "id": "a0c30b31-a2cc-4939-84d2-8b0bfa2b3948",
+                      "answer": "Nooit",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "9cebc41c-e94e-4885-a313-ec8403a72f0c",
+                  "question": "Heb je jouw medewerkers een training gegeven over digitale dreigingen?",
+                  "label": "Training digitale dreigingen",
+                  "reason": "64% van alle ondernemingen komt in aanraking met cybercriminelen. Organisaties doen er daarom goed aan om medewerkers te instrueren wat ze wel en wat ze vooral niet moeten doen. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "2721c091-c099-4e8f-945f-a4f0fb0b7a7b",
+                      "answer": "Ja, een externe organisatie heeft een workshop gegeven",
+                      "score": 4
+                    },
+                    {
+                      "id": "60740c63-0ae4-4e3d-93e4-166c8afd1e3d",
+                      "answer": "Ja, we hebben intern een presentatie gegeven",
+                      "score": 6
+                    },
+                    {
+                      "id": "ef26bbb0-d5d5-4a88-b90c-852173912e7d",
+                      "answer": "Alle bovenstaande antwoorden zijn juist",
+                      "score": 10
+                    },
+                    {
+                      "id": "d2af3e3e-0900-4a1a-a87a-a1edc7e91ba5",
+                      "answer": "nee, maar ik sta er wel open voor",
+                      "score": 2
+                    },
+                    {
+                      "id": "2e9a8015-a622-4c87-848a-81c2078df0c5",
+                      "answer": "Nee, ik zie daar de toegevoegde waarde niet van in",
+                      "score": 1
+                    },
+                    {
+                      "id": "0b8c13f0-bc24-498e-a6d2-b8a54284ea95",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "b92f9a6a-489f-4f4c-bdc8-bbe77711b716",
+                  "question": "Wanneer heb je voor het laatst deze training gegeven?",
+                  "label": "Laatste keer training",
+                  "reason": "64% van alle ondernemingen komt in aanraking met cybercriminelen. Organisaties doen er daarom goed aan om medewerkers te instrueren wat ze wel en wat ze vooral niet moeten doen. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "c8c5836d-4d86-47fb-8330-a6aee4fd5225",
+                      "answer": "Minder dan 6 maanden geleden",
+                      "score": 10
+                    },
+                    {
+                      "id": "fcd667fc-ec6b-4f60-ba65-8295126f4aeb",
+                      "answer": "Minder dan een jaar geleden",
+                      "score": 6
+                    },
+                    {
+                      "id": "584c87e8-6cef-4f79-9781-ceb948a56ed8",
+                      "answer": "Tussen 1 en 2 jaar geleden",
+                      "score": 2
+                    },
+                    {
+                      "id": "4e875e1a-aca9-4079-b0a4-79f36d728ebc",
+                      "answer": "Nooit",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            },
+            //cat 2 of section 1
+            {
+              "label": "Verantwoordelijkheid",
+              "description": "",
+              "questions": [
+                {
+                  "id": "14937d30-4e8e-454e-8863-83282e021f70",
+                  "question": "Binnen het management is voldoende aandacht voor cybersecurity.",
+                  "label": "Aandacht cybersecurity",
+                  "reason": "64% van alle ondernemingen komt in aanraking met cybercriminelen. Organisaties doen er daarom goed aan om medewerkers te instrueren wat ze wel en wat ze vooral niet moeten doen. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "ad9fc21c-af90-4411-8949-3e0ec655e9c2",
+                      "answer": "Ja, maar er is wel ruimte voor verbetering",
+                      "score": 8
+                    },
+                    {
+                      "id": "553c85bb-0dab-4b7d-8bd0-d47d57740620",
+                      "answer": "Ja, maar we hebben te weinig kennis om meer aandacht aan cybersecurity te besteden",
+                      "score": 6
+                    },
+                    {
+                      "id": "7042e789-07ea-44dd-b916-5e3ce0303058",
+                      "answer": "Nee, maar ik sta er wel open voor",
+                      "score": 2
+                    },
+                    {
+                      "id": "0de24095-a664-4aea-9530-6e6acce1c406",
+                      "answer": "Nee, ik zie daar de toegevoegde waarde niet van in",
+                      "score": 1
+                    },
+                    {
+                      "id": "dd2dae82-2035-42b5-94a7-811cdf8463a8",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "4abd1c4b-20c1-4c54-a520-1aca87417c4d",
+                  "question": "Binnen mijn bedrijf zijn verantwoordelijkheden omtrent cybersecurity duidelijk verdeeld.",
+                  "label": "Verdeling cybersecurity",
+                  "reason": "64% van alle ondernemingen komt in aanraking met cybercriminelen. Organisaties doen er daarom goed aan om medewerkers te instrueren wat ze wel en wat ze vooral niet moeten doen. ",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "9ba312bf-2d21-42f8-9675-ba3a73fd2552",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "db30ba1a-6541-4190-acb0-1f62e3f03a66",
+                      "answer": "Nee",
+                      "score": 4
+                    },
+                    {
+                      "id": "9f7f0d3b-9972-484d-ac2f-2697ad20e247",
+                      "answer": "NVT",
+                      "score": 4
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "8fb85552-a222-4eba-bd73-87aea6b42ace",
+                  "question": "Wie is er verantwoordelijk voor cybersecurity en het IT veiligeheidsbeleid van het bedrijf?",
+                  "label": "Verantwoordelijkheid cybersecurity",
+                  "reason": "Het is belangrijk dat de rol van eindverantwoordelijke op het gebied van cybersecurity en IT veiligheid bepaald is. Hierdoor kan je makkelijk schakelen bij calamiteiten. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "353579d1-6c4a-495e-8c67-e8c130faddf0",
+                      "answer": "Eigenaar/ directeur",
+                      "score": 6
+                    },
+                    {
+                      "id": "bd881f7d-12cf-4de3-9fd2-46b6623e03f4",
+                      "answer": "Externe partij",
+                      "score": 6
+                    },
+                    {
+                      "id": "becada20-b15f-47a1-8bc7-2bfc305fab8a",
+                      "answer": "Interne coordinator",
+                      "score": 6
+                    },
+                    {
+                      "id": "ddb7fc64-17e2-437c-ad1f-20dcf9162910",
+                      "answer": "Niemand",
+                      "score": 6
+                    },
+                    {
+                      "id": "42cd5bec-735c-44ea-aedf-6c3e4f110c11",
+                      "answer": "IT-afdeling",
+                      "score": 10
+                    },
+                    {
+                      "id": "9e7c10ba-8d58-4fe2-b48d-6138a505d0c5",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "77bb7b13-3fa9-49ee-9f8e-e41c7270598e",
+                  "question": "Naleving van het cybersecuritybeleid wordt regelmatig doorgelicht/gecontroleerd door een externe auditor",
+                  "label": "Controle cybersecuritybeleid externe auditor",
+                  "reason": "Een cybersecuritybeleid is de blauwdruk van de security binnen jouw organisatie. ",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "044a45bd-6344-40c7-ba30-624860a6bb92",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "da61ee31-3634-4b20-9fc3-ba57a59cd078",
+                      "answer": "Nee",
+                      "score": 6
+                    },
+                    {
+                      "id": "eeff7fa6-8eaa-46e1-8db9-8c049ad68607",
+                      "answer": "NVT",
+                      "score": 2
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            }
+          ] 
+        },
+//section 2
+        {
+          "label": "Beleid",
+          "description": "",
+          "tags": null,
+          "categories": [
+            {
+              "label": "Hulpmiddelen",
+              "description": "",
+              "questions": [
+                {
+                  "id": "40ab906b-b3a5-495b-bd52-0d09d70dc13f",
+                  "question": "Locken medewerkers hun scherm wanneer ze hun bureau verlaten?",
+                  "label": "Scherm locken",
+                  "reason": "Het locken van je scherm waneer je jouw bureau verlaat om bijvoorbeeld een kop koffie te halen wordt vaak vergeten of niet gedaan. Dit kan erge gevolgen hebben. ",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "52923e01-4d39-4b95-b04b-fed2ecefb257",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "4a0c2236-f68f-43a4-9b5b-a448ba1a3764",
+                      "answer": "Nee",
+                      "score": 6
+                    },
+                    {
+                      "id": "69e4393f-0036-4642-a7f8-80398ad7fc27",
+                      "answer": "NVT",
+                      "score": 2
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "1f1c95c6-3704-47d4-88ff-2536fb5ea9b3",
+                  "question": "Maak je al gebruik van een wachtwoordkluis? (ook voor je personeel?)",
+                  "label": "Wachtwoordkluis",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "868a1cf9-3a68-4657-b863-d4f3625c2ad3",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "7acf6de7-93ef-4be2-96d3-01f1f998b66e",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "697bb153-50f9-44a6-87cd-934b42b278f0",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "c592d303-584b-4531-b395-a9754d642e8e",
+                  "question": "Hoe vaak moeten medewerkers binnen jouw organisatie hun wachtwoord veranderen?",
+                  "label": "Wachtwoordbeleid",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "8e674f98-83bf-4457-80a6-8d8a9217d4fc",
+                      "answer": "Maandelijks",
+                      "score": 10
+                    },
+                    {
+                      "id": "ee29da8d-43bf-41ec-9e6c-ae06c4c18d2e",
+                      "answer": "Jaarlijks",
+                      "score": 4
+                    },
+                    {
+                      "id": "30c4f4b3-0d98-48b9-9c8f-5aedcb39c099",
+                      "answer": "Nooit",
+                      "score": 1
+                    },
+                    {
+                      "id": "482a9adb-d2b9-4323-afe0-be78d7510693",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "465b3aa1-0323-4b62-be0a-e79262ec0fc8",
+                  "question": "Hebben jullie vereisten waaraan een wachtwoord moet voldoen?",
+                  "label": "Vereisten wachtwoord",
+                  "reason": "Een wachtwoord moet voldoen",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "299dc2c7-5ee8-42ce-9d8b-0ef191ec92da",
+                      "answer": "Ja, minimaal 8 en maximaal 25 karakters, minstens 3 karakters die niet in het vorige wachtwoord zitten, minstens 1 hoofdletter en minstens 2 speciale tekens",
+                      "score": 10
+                    },
+                    {
+                      "id": "5d97b3d9-808c-47c0-af83-4f6a9d06eabe",
+                      "answer": "Ja, minimaal 8 en maximaal 25 karakters, minstens 1 hoofdletter en minstens 2 speciale tekens",
+                      "score": 6
+                    },
+                    {
+                      "id": "f9c71cc5-2916-41cb-bd1a-bc8e145713d6",
+                      "answer": "Ja, minimaal 8 en maximaal 25 karakters, minstens 1 hoofdletter",
+                      "score": 4
+                    },
+                    {
+                      "id": "c41e3eea-ceb8-46a1-a7cf-47335dc26503",
+                      "answer": "Ja, minimaal 8 en maximaal 25 karakters",
+                      "score": 2
+                    },
+                    {
+                      "id": "9853f34a-1fe8-4f47-b96e-e7037bf6f17c",
+                      "answer": "Nee, hier zijn geen vereisten voor",
+                      "score": 1
+                    },
+                    {
+                      "id": "d628ee33-06dc-4821-a385-48ff7e31f368",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "a1912abe-bd99-453e-ab9c-910dbecb3904",
+                  "question": "Maken jullie binnen je organisatie gebruik van Two-factor authentication?",
+                  "label": "Two-factor authentication",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "2c56492c-3b7c-44a9-8e43-dbfa65b0b32b",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "cd734a5b-2bc7-4ecd-b8de-c22c5262e938",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "e4a0a23a-60cb-4c85-8823-1413ccd96efe",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "e82a3f83-8272-4c02-b950-ff078e1b1397",
+                  "question": "Maak je gebruik van webcamcovers?",
+                  "label": "Webcamcovers",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Low",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "991874d3-d6b0-4137-bba1-12c0d0481465",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "afc18ac0-77c3-4a7d-86f4-13c83ddc00e0",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "ea0ece7d-1fa5-40da-b659-5ab6a7558d29",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            },
+            {
+              "label": "Procedure",
+              "description": "",
+              "questions": [
+                {
+                  "id": "1c2864bc-2953-4c34-b9f0-30d3af1f64a2",
+                  "question": "Is er binnen jouw organisatie een beleid voor het vergaren, verzamelen, bewaren, verwerken en opslaan van persoonsgegevens?",
+                  "label": "Beleid persoonsgegevens",
+                  "reason": "Een intern beleid voor het privacyregelement is belangrijk omdat de AVG organisaties verplicht deze informatie goed op orde te hebben. ",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "21dc45fe-a5fb-4048-96e4-2aef548f8cd8",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "b76b1a46-d337-4a8b-9dfe-7af0e91cfb15",
+                      "answer": "Nee",
+                      "score": 6
+                    },
+                    {
+                      "id": "74df084f-0759-4a6c-832c-73c5dc1b1edd",
+                      "answer": "NVT",
+                      "score": 2
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "e854fbfc-a96e-497c-b8b8-4ec3bbd9fd79",
+                  "question": "Is er binnen jouw organisatie een intern beleid voor het privacyregelement?",
+                  "label": "Intern beleid privacyregelement",
+                  "reason": "Een intern beleid voor het privacyregelement is belangrijk omdat de AVG organisaties verplicht deze informatie goed op orde te hebben. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "5b83268d-8221-45e7-bd5f-6cd033e7e16b",
+                      "answer": "Ja, we hebben een handboek waarin regels zijn beschreven voor het privacybeleid",
+                      "score": 4
+                    },
+                    {
+                      "id": "1ef87597-f341-4558-86e6-ea1ea41639e7",
+                      "answer": "Ja, we hebben elke medewerker een contract laten tekenen voor het privacybeleid",
+                      "score": 4
+                    },
+                    {
+                      "id": "d772f96a-fd67-4568-96b4-e8441e786c9d",
+                      "answer": "Ja we hebben een handboek waarin regels zijn beschreven, een privacybeleid en we hebben elke medewerker een contract laten tekenen. ",
+                      "score": 10
+                    },
+                    {
+                      "id": "a6185624-1497-43e3-8296-ac4fd2562066",
+                      "answer": "Ja, we hebben een privacy beleid op onze website.",
+                      "score": 4
+                    },
+                    {
+                      "id": "e1a2f266-8773-419d-9a3c-9334ecd10e50",
+                      "answer": "Nee, maar dit willen we in de toekomst gaan doen",
+                      "score": 1
+                    },
+                    {
+                      "id": "32a4239f-5435-49a5-a05b-b92b4504faa5",
+                      "answer": "Nee, ik zie hier de toegevoegde waarde niet van in",
+                      "score": 1
+                    },
+                    {
+                      "id": "86ca67de-12ec-4345-ad51-74da58fb38f5",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "57189e63-7ddf-4261-ba16-b00dd60ea1b5",
+                  "question": "Is er binnen jouw organisatie een beleid voor de classificatie van informatie naar mate van vertrouwelijkheid? Rechtenstructuur?",
+                  "label": "Beleid rechtenstructuur",
+                  "reason": "Een intern beleid voor de classificatie van informatie naar mate van vertrouwelijkheid is belangrijk omdat de AVG organisaties verplicht deze informatie goed op orde te hebben. ",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "7c9639e7-1b89-4936-957b-27dc6f52ac6d",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "b7fcac4b-5751-463b-9afb-db7493f9b292",
+                      "answer": "Nee",
+                      "score": 10
+                    },
+                    {
+                      "id": "d8d4830f-6cad-4eae-8b2c-29a20ffde19e",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "556b0df1-1ed6-4763-803f-c759fb700bf7",
+                  "question": "Zijn er maatregelen genomen indien ICT uitvalt of ernstig verstoord raakt?",
+                  "label": "Maatregelen uitval ICT",
+                  "reason": "Goedwerkend ICT binnen een organisatie is essentieel, maar er kan altijd iets gebeuren omtrent de ICT binnen jouw organisatie. ",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "63a7bbfd-9cbc-4093-9bf8-c9eade82ad63",
+                      "answer": "Ja, we hebben een handboek waarin regels zijn beschreven",
+                      "score": 4
+                    },
+                    {
+                      "id": "053c2192-02e3-4215-a8a5-c116ed9ef1b2",
+                      "answer": "Ja, we hebben een beveligingsplan / continuiteitsplan opgesteld",
+                      "score": 4
+                    },
+                    {
+                      "id": "8f206d0e-28f0-4aea-a985-dfc9984bba26",
+                      "answer": "Ja, we hebben een voorlichting en trainig voor gebruikers gegeven",
+                      "score": 4
+                    },
+                    {
+                      "id": "2ef20938-ee54-48a1-81b9-fadb6ea70971",
+                      "answer": "Alle bovenstaande antwoorden zijn juist",
+                      "score": 10
+                    },
+                    {
+                      "id": "19b8fc87-eec9-43ef-b900-2aa18bba1449",
+                      "answer": "Nee, hier zijn geen maatregelen voor genomen",
+                      "score": 1
+                    },
+                    {
+                      "id": "07ff5d42-6b83-4ec4-b739-471907f5d969",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "d7537c56-0086-41a3-b034-be59f01afa8b",
+                  "question": "Beschikt jouw organisatie over een procedure wanneer een datalek zich voordoet en wordt deze procedure getest?",
+                  "label": "Procedure datalek test",
+                  "reason": "Datalekken kunnen zich voordoen binnen een organisatie. Dit kan een hoop schade veroorzaken. ",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "30702b15-7768-4dee-a6b7-96c401850b15",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "e9ac930f-27d6-4069-9681-1bbe96399d83",
+                      "answer": "Nee",
+                      "score": 6
+                    },
+                    {
+                      "id": "686059ed-5add-4705-afe1-739f30dbcc99",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "b8d33850-e04f-48ad-b5fc-c7bfc197d6ea",
+                  "question": "Verwerkt jouw organisatie alleen de persoonsgegevens die noodzakelijk zijn voor de doeleinden waarvoor ze verkregen zijn?",
+                  "label": "Verwerking persoonsgegevens",
+                  "reason": "Na de intrede van de AVG wetgeving is het belangrijk hoe organisaties omgaan met persoonsgegevens.",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "c5cff7cf-89be-433d-aa8b-81a5e7ef4757",
+                      "answer": "Ja",
+                      "score": 6
+                    },
+                    {
+                      "id": "16445ec7-89a6-4a81-a6a2-efa4f7bea1bd",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "ebb55a6b-5efd-4aa5-ab3f-6cbf285a8967",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "66288d9a-c990-416d-82f3-6078ecafed98",
+                  "question": "Implementeert jouw organisatie nieuwe functionaliteit volgens het 'security by design' principe?",
+                  "label": "Security by design",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "cbb64231-0145-4108-a065-4d4a85e3dc24",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "dbdb0c8e-6a35-42d2-986e-d7ff310c7769",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "732de424-95ce-4820-ba1b-c1c37dadc418",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "607e76a2-28cd-43af-805f-d6b93ce5ea7a",
+                  "question": "Voldoe je aan de regel van de Autoriteit Persoonsgegevens om inzicht, correctie en verwijdering van persoonsgegevens te realiseren?",
+                  "label": "Autoriteit Persoonsgegevens",
+                  "reason": "De Wet Bescherming Persoonsgegevens",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "7a8c6fca-e3d4-405c-adad-3c9488b4ef94",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "8d69c28d-07f1-44e8-b528-d3eeba7aac07",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "72e1ebf1-d18a-41c0-ac98-b0951cc57a86",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "9f5c92d5-2015-43a3-8dfa-2e4a7e9902f9",
+                  "question": "Ben je met al je 'partners' een verwerkersovereenkomst aangegaan?",
+                  "label": "Verwerkersovereenkomst",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "29579026-aca0-44fd-94f6-9c890918beb7",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "309cbde0-77d2-4cd9-9757-424f700fca83",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "7247406c-af3b-428c-b513-458913f9bf86",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "db82621a-4ada-4f5b-a829-fa0813b3a847",
+                  "question": "Is er een beleid op het gebied van gebruik van werkplek, zoals een mobielbeleid of een wachtwoordbeleid dat periodiek getest wordt?",
+                  "label": "Beleid gebruik van werkplek",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "86c96609-629f-4a28-a1c5-acb170d11483",
+                      "answer": "Ja, dit beleid is aanwezig, dit wordt regelmatig getest",
+                      "score": 10
+                    },
+                    {
+                      "id": "a8d9b707-b2d6-4cb0-ae73-36865ba482f8",
+                      "answer": "Ja, dit beleid is aanwezig, dit wordt helaas niet getest",
+                      "score": 6
+                    },
+                    {
+                      "id": "31a27707-b720-4541-ba7e-2e59b2600095",
+                      "answer": "Nee,",
+                      "score": 1
+                    },
+                    {
+                      "id": "e9842ca3-4382-4a97-b233-abe5744904d3",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "ff1e6258-e74a-4525-bb86-61aa1dd86760",
+                  "question": "Worden nieuwe en huidige medewerkers die moeten werken met vertrouwelijke klantinformatie gescreend?",
+                  "label": "Screening nieuwe medewerkers",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "0abb5b49-e22e-46c3-819e-3d789b0d8b3a",
+                      "answer": "Ja, we doen een social media check",
+                      "score": 5
+                    },
+                    {
+                      "id": "80b85cc9-ebb0-4182-a800-ea1ec195b103",
+                      "answer": "Ja, ze moeten een VOG aanvragen",
+                      "score": 5
+                    },
+                    {
+                      "id": "bb440751-19a6-40eb-bf0e-871b5dec8de1",
+                      "answer": "Ja, we doen een social media check en nieuwe medewerkers moeten een VOG aanvragen",
+                      "score": 10
+                    },
+                    {
+                      "id": "27c873ce-502a-4bbe-8268-ae21d8161662",
+                      "answer": "Nee,",
+                      "score": 1
+                    },
+                    {
+                      "id": "a00189f9-d987-4677-9631-f9955be66262",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "fec00d59-c26a-41f5-8a82-4444122fb71d",
+                  "question": "Hebben jullie een risicoanalyse opgesteld met een actieplan met maatregelen?",
+                  "label": "Risicoanalyse",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "ffedfd46-9f76-4e2d-b021-b0941891347b",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "49c27641-71dd-42e9-bb9d-49d3fcb7494d",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "335b22c1-978f-48ba-9393-d02959453a73",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            }
+          ]
+        },
+//section 3
+        {
+          "label": "Monitoring",
+          "description": "",
+          "tags": null,
+          "categories": [
+            {
+              "label": "Protocol",
+              "description": "",
+              "questions": [
+                {
+                  "id": "bb3a1b9a-d4c4-489b-bcaf-543ed0614fcc",
+                  "question": "Hoe vaak monitor je jouw IT-infrastructuur op mankementen, problemen en incidenten?",
+                  "label": "Monitoring IT-infrastructuur",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "f2e085a5-95bf-42ae-bb47-da62c1d0b472",
+                      "answer": "Automatisch (24/7)",
+                      "score": 10
+                    },
+                    {
+                      "id": "a0d7eeb7-771d-4e3b-9fb8-a7e47d847f14",
+                      "answer": "Dagelijks",
+                      "score": 6
+                    },
+                    {
+                      "id": "429604ad-61b9-4d03-a9d5-0b453d014959",
+                      "answer": "Wekelijks",
+                      "score": 4
+                    },
+                    {
+                      "id": "57c1ba34-c05f-4567-94ad-a59d416a41e7",
+                      "answer": "Maandelijks",
+                      "score": 3
+                    },
+                    {
+                      "id": "88d0ad23-5980-40ce-9b4b-082246bbef44",
+                      "answer": "Jaarlijks",
+                      "score": 2
+                    },
+                    {
+                      "id": "f4a408a3-ec67-48f4-b25f-afc0fd3900e5",
+                      "answer": "Nooit",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "9d344266-e377-4266-8f73-deb6af860bea",
+                  "question": "Hebben jullie een incidentprotocol samengesteld?",
+                  "label": "Incidentenprotocol",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "4b9cb886-38d0-4844-aa1e-9a4700dfb3f0",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "ab79745d-09c2-488f-a823-6654b345c9fd",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "55cc1fd4-94de-43a5-bf7f-1884ba15151c",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "d0ece92f-6530-4d0d-9797-6974a1b611df",
+                  "question": "Hoe vaak update je dit incidentenprotocol?",
+                  "label": "Updaten Incidentenprotocol",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "e1dc8f4e-f34f-4d7c-8a69-8c5282b40f61",
+                      "answer": "Elke 6 maanden",
+                      "score": 10
+                    },
+                    {
+                      "id": "b3ddd12c-ce0a-4c0d-99e3-7950d9d70968",
+                      "answer": "Elk jaar",
+                      "score": 4
+                    },
+                    {
+                      "id": "fe1ba61e-1507-4224-a2c0-1a78d81466af",
+                      "answer": "Elke 2 jaar",
+                      "score": 2
+                    },
+                    {
+                      "id": "c197a3ad-cda0-4660-8ac3-ca57cda6d5fd",
+                      "answer": "Niet",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "af0dca19-e4ed-4eaa-ad31-01ef4e149204",
+                  "question": "Wat is de responstijd na een incident binnen een organisatie? (SLA)",
+                  "label": "Responstijd",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "c357d2f2-795c-47ee-a450-a168c641cd2d",
+                      "answer": "0-4 uur",
+                      "score": 10
+                    },
+                    {
+                      "id": "059a690f-279b-4876-bbd8-fd1bae224895",
+                      "answer": "4-8 uur",
+                      "score": 6
+                    },
+                    {
+                      "id": "304eacd0-c638-4548-8b67-1e13711520cf",
+                      "answer": "8-12 uur",
+                      "score": 2
+                    },
+                    {
+                      "id": "d8888a8a-b872-4571-98bb-7a4eb3017c71",
+                      "answer": "12+ uur",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "62a3c4e4-dc20-4aa1-9763-b1d492e02a82",
+                  "question": "Hoe lang heeft de gebruiker hier last van? ",
+                  "label": "Responstijd",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "994f9c4e-78ed-4039-a947-c48ea0b86e7c",
+                      "answer": "0-4 uur",
+                      "score": 10
+                    },
+                    {
+                      "id": "3ddd1c7d-220e-4dfd-9442-c278e493067b",
+                      "answer": "4-8 uur",
+                      "score": 6
+                    },
+                    {
+                      "id": "1b54bfc2-89df-4cfc-9780-d4823267324c",
+                      "answer": "8-12 uur",
+                      "score": 2
+                    },
+                    {
+                      "id": "d3bad6ee-2689-46da-937b-7d4f090d32db",
+                      "answer": "12+ uur",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            }
+          ]
+        },
+//section 4
+        {
+          "label": "Data security",
+          "description": "",
+          "tags": null,
+          "categories": [
+            {
+              "label": "backup",
+              "description": "",
+              "questions": [
+                {
+                  "id": "22865c6b-6075-41e8-b1ce-180f36f99428",
+                  "question": "Is jouw gevoelige kritieke data versteuteld?",
+                  "label": "Versleuteling gevoelige data",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "9c5153c6-b9bd-4b07-8f99-e6d0ade2783c",
+                      "answer": "Ja, alle data op onze mobiele apparaten is versleuteld",
+                      "score": 10
+                    },
+                    {
+                      "id": "49243da8-b8eb-4bb6-a3a9-275ba722d19b",
+                      "answer": "Ja, alle data die geclassificeerd is als gevoelig is versleuteld",
+                      "score": 6
+                    },
+                    {
+                      "id": "e20c782f-0b43-4d16-ac48-e3ea7d6e74cc",
+                      "answer": "Ons bedrijf heeft geen consistent beleid, onze versleuteling is nog in ontwikkeling",
+                      "score": 2
+                    },
+                    {
+                      "id": "0b5ea961-3301-42f6-9a25-23f3e507795d",
+                      "answer": "Nee",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "0cfba6bf-9e83-4104-8b75-ccb66a7d0db2",
+                  "question": "Heb jij het internetverkeer op jouw website versleuteld (bijvoorbeeld door middel van HTTPS) voor een veilige gegevensoverdracht? Zelf toetsen",
+                  "label": "Versleuteling internetverkeer",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "a8941579-b880-4f28-8be3-a6436dfd4ff7",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "8def3135-f99a-4d49-bc8a-0299347598d0",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "b8a4b184-b127-4a98-afb5-9ace62e8e111",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "9a969bfa-783a-4c8c-a59d-af0684fae3a8",
+                  "question": "Mogen medewerkers hun eigen smartphone, tablets en laptops gebruiken voor toegang tot beschermde bedrijfsgegevens en applicaties?",
+                  "label": "Beleid eigen apparatuur",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Low",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "44b921bf-06d9-4cb7-ae12-ebf415ed643e",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "d59188e1-3709-45fb-ba6f-86a8615ee820",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "dab55a8f-b323-4753-8854-369b8349e74e",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "11a9cac5-0528-4bbf-8065-174dfec4721b",
+                  "question": "Zijn de toegangsrechten van alle gebruikers gebaseerd op hun individuele functieprofiel en verantwoordelijkheden?",
+                  "label": "Toegangsrechten gebruikers",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "0e01851b-f7ba-4dba-90e8-7f049fe61a01",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "68c2f27d-64df-4e41-a19e-d4c80a5f9d88",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "8f415d53-0bfe-4aed-973a-5a1a1439a7a4",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "6913acbb-17e1-413d-8565-7bed885cc4b4",
+                  "question": "Hoe vaak maken jullie backups?",
+                  "label": "Backup",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "8cda5a9e-a4fb-4f28-bd85-e1f1135e0091",
+                      "answer": "24/7",
+                      "score": 10
+                    },
+                    {
+                      "id": "c67106b6-3218-4ec6-bdcd-06af65e8d09f",
+                      "answer": "Dagelijks",
+                      "score": 8
+                    },
+                    {
+                      "id": "54e23780-6745-4220-aa95-59abcae8af9b",
+                      "answer": "Wekelijks",
+                      "score": 6
+                    },
+                    {
+                      "id": "c73a7f97-41de-4129-936e-0f5650f51acf",
+                      "answer": "Maandelijks",
+                      "score": 4
+                    },
+                    {
+                      "id": "d2079827-0789-4bc1-b98e-d2d3aa187ea5",
+                      "answer": "Jaarlijks",
+                      "score": 2
+                    },
+                    {
+                      "id": "3884d8b5-6593-4650-87d8-31eb206bb048",
+                      "answer": "Nooit",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "5ccc6b6f-22b3-41b0-8a78-04ec61c6b5b3",
+                  "question": "Wie heeft toegang tot de backup sets?",
+                  "label": "Toegang backup",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "60682d57-70fb-41af-b947-d2794adf85a4",
+                      "answer": "Eigenaar/ directeur",
+                      "score": 8
+                    },
+                    {
+                      "id": "c62a06c6-769c-4aa5-9cbd-e01327839a8a",
+                      "answer": "Externe partij",
+                      "score": 6
+                    },
+                    {
+                      "id": "be2e4766-aba3-4632-a89d-09f0485f375e",
+                      "answer": "Interne coordinator",
+                      "score": 6
+                    },
+                    {
+                      "id": "ed0fa95f-a9b1-434a-b272-deb1ebc40428",
+                      "answer": "Niemand",
+                      "score": 1
+                    },
+                    {
+                      "id": "8ebe4d44-3d7e-4b63-ab98-f7f05c3374e5",
+                      "answer": "IT-afdeling",
+                      "score": 10
+                    },
+                    {
+                      "id": "ad181494-e444-4ab0-adf9-52464bf93141",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "f3615a08-db58-45cc-bac4-8dc45aadcb61",
+                  "question": "Waar staat de backup data?",
+                  "label": "Locatie backup",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "7f17d059-1062-4951-9166-6ca54f5f9360",
+                      "answer": "Externe harde schijf",
+                      "score": 6
+                    },
+                    {
+                      "id": "e91dd1ec-08a3-444b-8aa3-26f2c7089665",
+                      "answer": "In de cloud",
+                      "score": 10
+                    },
+                    {
+                      "id": "0d06e8bc-6ebc-45b2-a292-9ffc4007760f",
+                      "answer": "Interne harde schijf",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "b64a3ca6-1ed9-41dc-9f78-f4c3ccc609d4",
+                  "question": "Ben jij verzekerd tegen datadiefstal?",
+                  "label": "Verzekering diefstal",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "dad0e79d-4043-4128-bbc8-44016af9317c",
+                      "answer": "Ja, we zijn allrisk verzekerd",
+                      "score": 10
+                    },
+                    {
+                      "id": "fb50a43d-3727-471b-99d5-5f4064d6013f",
+                      "answer": "Ja, we zijn alleen verzekerd tegen datadiefstal",
+                      "score": 4
+                    },
+                    {
+                      "id": "9f642e91-428f-49ff-ac87-731d52417a3c",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "246d8839-18e9-4724-bc18-26e93c6c53a7",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "71cb77e6-7e6b-40da-90b6-dd4c7148bb3a",
+                  "question": "Wat is de backup retentie?",
+                  "label": "Backup retentie",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "36283b70-036a-4747-8568-b8f455406ef1",
+                      "answer": "We bewaren gegevens maximaal 7 dagen",
+                      "score": 10
+                    },
+                    {
+                      "id": "4d1f116b-d889-47e6-9a5c-8b9af66ac74b",
+                      "answer": "We bewaren gegevens maximaal 30 dagen",
+                      "score": 6
+                    },
+                    {
+                      "id": "766ed6c0-2a9f-4915-af11-2d38e7bee813",
+                      "answer": "We bewaren gegeven maximaal 6 maanden",
+                      "score": 4
+                    },
+                    {
+                      "id": "e38fd59c-3eff-4a72-95ae-d3d54880301d",
+                      "answer": "We bewaren gegevens maximaal 1 jaar",
+                      "score": 2
+                    },
+                    {
+                      "id": "9ac6b438-ba43-4984-85b0-9e51cde43b3d",
+                      "answer": "Niet",
+                      "score": 1
+                    },
+                    {
+                      "id": "d0f94f34-b8b9-4a73-a7cf-233ef51c755f",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "c875e74a-4e79-4127-ba79-9bfeef25ddde",
+                  "question": "Is er een disaster recovery procedure en hoe vaak wordt dit getest?",
+                  "label": "Disaster recovery procedure",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "36df9e56-f896-44b9-8c34-5e5d21ff271b",
+                      "answer": "Ja, dagelijks",
+                      "score": 10
+                    },
+                    {
+                      "id": "7e7ebb77-a973-4bc2-a55c-30a728542286",
+                      "answer": "Ja, wekelijks",
+                      "score": 6
+                    },
+                    {
+                      "id": "e77d96e6-acf8-4e5d-b7ac-e7c66a8cfef5",
+                      "answer": "Ja, maandelijks",
+                      "score": 4
+                    },
+                    {
+                      "id": "b0d26d73-bb5e-4c51-919a-5456a1e4f9dc",
+                      "answer": "Ja, jaarlijks",
+                      "score": 3
+                    },
+                    {
+                      "id": "c1f11487-5e48-49b8-84b1-25be807c8cee",
+                      "answer": "Ja, nooit",
+                      "score": 2
+                    },
+                    {
+                      "id": "582beda0-4b54-487b-9dcc-6a65c1b9f29d",
+                      "answer": "Nee, dit hebben wij niet",
+                      "score": 1
+                    },
+                    {
+                      "id": "1dab23c3-2f7a-4efc-ad56-9d431316dce0",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "0eee7de5-bad5-4ff7-b7d2-43252b7684ef",
+                  "question": "Stel, je bedrijf brandt af. Hoelang duurt het voordat je weer operationeel bent? ",
+                  "label": "Disaster recovery procedure",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "47b122c8-623b-47b6-aa74-e225c43a20ce",
+                      "answer": "0-4 uur",
+                      "score": 10
+                    },
+                    {
+                      "id": "3d33b6b6-6f27-4cbf-b381-94eef0fd00ea",
+                      "answer": "4-8 uur",
+                      "score": 6
+                    },
+                    {
+                      "id": "e50e61ef-4826-4d90-a371-1294a6a501a1",
+                      "answer": "8-12 uur",
+                      "score": 2
+                    },
+                    {
+                      "id": "ff2bab41-0207-4a30-80be-2595daa26eca",
+                      "answer": "12+ uur",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "f0de1d2c-0805-4d88-aab7-8c35b5c15618",
+                  "question": "Maken jullie gebruik van data classificatie?",
+                  "label": "Data classificatie",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "941ede2b-9562-4594-a80c-44949ba56103",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "299cee8f-bcc8-4803-a059-ec14fd60cb49",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "9750cf42-f0ee-4ec7-a90c-19283bc33dfe",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "a685855f-24fc-4313-9e00-56065cda6d0c",
+                  "question": "Maken jullie gebruik van Bitlocker",
+                  "label": "Bitlocker",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "4da868d4-8578-4c24-834e-5df4f6bb1f26",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "32beedc3-d7ae-4a6b-b9ba-b8657b17cde7",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "d263b1d3-ab68-4ead-91ef-85b92bfc7a2d",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "ac658503-f7f9-409a-b4cc-082838d6aae5",
+                  "question": "Hoeveel data heeft je organisatie? (Dropbox)",
+                  "label": "Hoeveelheid data organisatie",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "990a709f-74a8-4292-bfc2-0cbdfbacb363",
+                      "answer": "0-50 gig",
+                      "score": 0
+                    },
+                    {
+                      "id": "7e4860df-6444-4d01-916b-3bec18b0e2bd",
+                      "answer": "50-100 gig",
+                      "score": 0
+                    },
+                    {
+                      "id": "1f8fa302-3353-43e7-bc3f-b0a37120cf77",
+                      "answer": "100-200 gig",
+                      "score": 0
+                    },
+                    {
+                      "id": "6e8375bf-c240-4c26-8834-9ef82f6caa4b",
+                      "answer": "200+ gig",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            }
+          ]
+        },
+//section 5
+        {
+          "label": "Applicatie",
+          "description": "",
+          "tags": null,
+          "categories": [
+            {
+              "label": "Beheer",
+              "description": "",
+              "questions": [
+                {
+                  "id": "075baaeb-179c-432f-8afe-0a59fe11bdd4",
+                  "question": "Hebben jullie een licentie-overzicht? (Shadow IT)",
+                  "label": "Licentie-overzicht",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "aa3bfea2-1b25-41aa-b614-b2edfd18f1d4",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "ee8ee058-6297-46ab-b068-1dcbcf29002d",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "40bba5b8-a053-4a53-9b43-71153a86208d",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "ecbb915b-fefd-4d93-a4bd-dc6ec7e51ca4",
+                  "question": "Wie is er verantwoordelijk voor versiebeheer? ",
+                  "label": "Verantwoordelijkheid versiebeheer",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "9c7cd81c-87cf-488a-ad98-8c988b27c7b6",
+                      "answer": "Eigenaar/ directeur",
+                      "score": 6
+                    },
+                    {
+                      "id": "712d9ef0-1f58-4773-bb03-71cc5e3dd4d2",
+                      "answer": "Externe partij",
+                      "score": 6
+                    },
+                    {
+                      "id": "ee146977-3fbc-4fad-a7b2-35e869e077d8",
+                      "answer": "Interne coordinator",
+                      "score": 6
+                    },
+                    {
+                      "id": "64358743-551c-40c3-b664-336be6d0f752",
+                      "answer": "Niemand",
+                      "score": 6
+                    },
+                    {
+                      "id": "d71d0590-5298-4c91-8040-0a0c89a232f3",
+                      "answer": "IT-afdeling",
+                      "score": 10
+                    },
+                    {
+                      "id": "a720c8ad-4ac4-4d8a-a144-7479ec262809",
+                      "answer": "NVT",
+                      "score": 1
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "60d5a472-9c75-4637-a246-66ce1dee72ab",
+                  "question": "Kunnen medewerkers zelf apps installeren? (Shadow IT)",
+                  "label": "Installatie apps medewerkers",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "b84f075e-be08-41e6-befd-e1898b7ef8bf",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "49d00174-3ea3-449f-b02f-fa208cadaab4",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "906043ca-d170-4bd9-af60-9586cc1c189a",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            },
+            {
+              "label": "Controle",
+              "description": "",
+              "questions": [
+                {
+                  "id": "f84739fe-5f30-40fc-be13-819d3ccd7493",
+                  "question": "Maak je gebruik van e-mail beveiliging?",
+                  "label": "E-mail beveiliging",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "0a77d671-a2c6-4d5e-9f76-5c459ace7abf",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "f7501129-8de0-46c5-9adc-f870368aae69",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "5d2453b1-f462-4d28-9e89-feb451240a0e",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "e090de9d-7a36-48aa-bba0-6aadeeb34a42",
+                  "question": "Kun je persoonsgegevens in je software anonimiseren/verwijderen?",
+                  "label": "Anonimiseren van persoonsgegevens",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "e02638c1-b6c5-45a7-9383-d282e6f96cc1",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "fbb1f60b-6046-439a-9e3a-de9e1087bc2a",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "237b6309-0d4c-4347-a9ec-cc510ba21df3",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "a8a892c3-243d-45a4-abe5-f9e9b9a92e57",
+                  "question": "Heb je een pentest laten uitvoeren op je belangrijkste applicaties/ koppelingen?",
+                  "label": "Pentest applicaties",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "ba8b7dd5-0236-47f8-9fc8-c33b3c9829be",
+                      "answer": "Ja, half jaar geleden",
+                      "score": 10
+                    },
+                    {
+                      "id": "f79fb42f-ae18-475a-9c92-f5a8fff94dca",
+                      "answer": "Ja, een jaar geleden",
+                      "score": 6
+                    },
+                    {
+                      "id": "08b06130-da81-497c-821f-8d36214f758d",
+                      "answer": "Ja, twee jaar geleden",
+                      "score": 2
+                    },
+                    {
+                      "id": "82896c91-a1f1-482d-894a-971dcaa64739",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "6553ff8b-16ff-4ce9-87be-1f57364b2c92",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "99aa0136-24d5-4008-842f-fb23974f9006",
+                  "question": "Maak je gebruik van Office 365-backup?",
+                  "label": "Office 365-backup",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "1e1f56ed-5390-434a-8b88-d9f1aa604b7a",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "1b0728d3-0eee-44e0-ba19-a5f83f7d1a34",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "1341fe87-9f32-48ad-a047-eb01a8710717",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "5da0a6f8-071d-48a5-b901-ff33ca368e86",
+                  "question": "Maak je gebruik van Office 365-beveiliging?",
+                  "label": "Office 365-beveiliging",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "051a8469-88e9-4065-bd28-98f03d8a35cd",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "25de79fa-286c-4692-8272-1f14cb0d4e3d",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "3f0b6e92-1b8c-4099-96ce-ce331fcef144",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "97218f64-b6a5-420d-bc62-6be5c27edc72",
+                  "question": "Hoe beveilig je bedrijfsapplicaties buiten je kantoor?",
+                  "label": "beveiliging bedrijfsapplicaties buiten kantoor",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "d8d4882f-9289-484b-bc3e-bd7da487aa7f",
+                      "answer": "Ja met VPN",
+                      "score": 10
+                    },
+                    {
+                      "id": "c4826f93-a120-4edb-82b3-36712e30ffe1",
+                      "answer": "Ja, alles is SAAS",
+                      "score": 10
+                    },
+                    {
+                      "id": "21041cb9-1203-4431-a5d4-5cb2d711e68c",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "d54f13b7-188e-48ee-b1c4-aa1957cdd97a",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "2d2a9867-6d5a-47c0-969e-e24704221731",
+                  "question": "Hoeveel bedrijfsapplicaties heb je binnen jouw organisatie?",
+                  "label": "Hoeveelheid bedrijfsapplicaties",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Low",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "b6ffd4e8-5a4b-49bf-9c34-36305bf2f8cb",
+                      "answer": "0-30",
+                      "score": 0
+                    },
+                    {
+                      "id": "e4b6d17f-0ae3-402a-a9e0-56a9014bf6f8",
+                      "answer": "30-60",
+                      "score": 0
+                    },
+                    {
+                      "id": "c564ae56-c991-4bf7-a96b-6fbacbe5e9b4",
+                      "answer": "60-90",
+                      "score": 0
+                    },
+                    {
+                      "id": "af5bee34-17f2-470a-bd9a-6a97e65c2c33",
+                      "answer": "90+",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "83ee11ba-097e-4517-b3e2-04c474aac1ec",
+                  "question": "Hoeveel applicaties zijn hiervan bedrijfskritisch? ",
+                  "label": "Bedrijfskritisch",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "b79981a1-c434-43dc-a46f-646b74aee59b",
+                      "answer": "1  10",
+                      "score": 0
+                    },
+                    {
+                      "id": "c907fa32-bca6-4a04-a553-4b5f30f9f499",
+                      "answer": "10  20",
+                      "score": 0
+                    },
+                    {
+                      "id": "22dde86a-7f38-403c-8442-7ad09dfb558b",
+                      "answer": "20  30",
+                      "score": 0
+                    },
+                    {
+                      "id": "4e259d53-7add-4a2a-a944-0cd48ecd0f1e",
+                      "answer": "30  40",
+                      "score": 0
+                    },
+                    {
+                      "id": "3c4d71f2-788f-4e8c-b881-976c27ca19a6",
+                      "answer": "40 50",
+                      "score": 0
+                    },
+                    {
+                      "id": "fd0c0b2e-d9b2-42db-84a5-74d5e1fa356a",
+                      "answer": "50+",
+                      "score": 0
+                    },
+                    {
+                      "id": "c9bdfd74-ec92-444b-a21f-b409ad5491cf",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "83287f97-6c52-4625-b574-957c3df254b7",
+                  "question": "Hebben gebruikers toegang van bedrijfsapplicaties via SSO? ",
+                  "label": "Toegang bedrijfsapplicaties",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "ab77485d-eb60-41f8-9b57-a032ce3ac4e3",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "f2796b7e-ce6c-4dd8-a7ae-95e534dd849e",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "27b55c47-58d8-4721-9afe-64a93a3c9ec2",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            }
+          ]
+        },
+//section 6
+        {
+          "label": "Endpoint Security",
+          "description": "",
+          "tags": null,
+          "categories": [
+            {
+              "label": "Antivirus",
+              "description": "",
+              "questions": [
+                {
+                  "id": "08a505b4-5144-444d-8eed-c027fe654328",
+                  "question": "Heb jij een antivirusprogramma geïnstalleerd op de computers binnen jouw organisatie?",
+                  "label": "Antivirus",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "f09e1e49-7e6c-4941-82b7-606fedbf3abd",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "51752b94-21ed-4bb1-8da5-7dd8aa34f6ca",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "b0be899b-0396-4bd1-96cb-47b2a547a98b",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "18fb17fb-075c-4c45-8442-49763ba18559",
+                  "question": "Maak je gebruik van Antimalware?",
+                  "label": "Antimalware",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "0d32320b-a346-417e-b994-62817275feb4",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "5e317c4d-9803-455c-84ad-515f3522122e",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "7f6aa943-2ed4-4a26-a901-3d9157c52967",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "e5784574-3083-477b-9ca5-7a2503bec7d8",
+                  "question": "Hoe vaak wordt je virusscanner geupdate?",
+                  "label": "Updaten virusscanner",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "9636171f-6952-4f06-9fcc-54b7ffb3077f",
+                      "answer": "Automatisch",
+                      "score": 10
+                    },
+                    {
+                      "id": "e951513d-fc6a-4113-be1c-cfbc8bc2a347",
+                      "answer": "Ja, dagelijks",
+                      "score": 6
+                    },
+                    {
+                      "id": "df1114be-5407-41f4-a5d9-d02afe6bb19c",
+                      "answer": "Ja, wekelijks",
+                      "score": 4
+                    },
+                    {
+                      "id": "50c9269c-54b7-4be8-a838-81edf930b6da",
+                      "answer": "Ja, maandelijks",
+                      "score": 3
+                    },
+                    {
+                      "id": "1d0bd050-5f8b-46ad-bbd7-f47f4bbec60e",
+                      "answer": "Ja, jaarlijks",
+                      "score": 2
+                    },
+                    {
+                      "id": "c1e6e1d0-e35b-4fde-94e8-833d957ee3c1",
+                      "answer": "Nooit",
+                      "score": 1
+                    },
+                    {
+                      "id": "72bdd2b5-e3c9-457c-bfec-e84150eafb2b",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            },
+            {
+              "label": "Update",
+              "description": "",
+              "questions": [
+                {
+                  "id": "953f7305-fe01-4a09-a744-1b077abc8196",
+                  "question": "Hoe vaak wordt je Windows geupdate? Patch Management?",
+                  "label": "Updaten Windows",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "e13cfc03-330d-45ae-be22-b66c28f0911b",
+                      "answer": "Automatisch",
+                      "score": 10
+                    },
+                    {
+                      "id": "671bf82f-2383-4225-8a21-9df369a5f307",
+                      "answer": "Elke dag",
+                      "score": 6
+                    },
+                    {
+                      "id": "f64458a2-7842-430b-b521-c8570b6ff729",
+                      "answer": "Elke week",
+                      "score": 4
+                    },
+                    {
+                      "id": "6398847a-a6b1-4b9b-9715-cb0c9dd5907b",
+                      "answer": "Elke maand",
+                      "score": 2
+                    },
+                    {
+                      "id": "f501cb70-2679-4983-84a8-760b1ce954f6",
+                      "answer": "Elk jaar",
+                      "score": 1
+                    },
+                    {
+                      "id": "d29a056d-3b21-45b8-a9b9-42ddaebef1b4",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "68c7a8a7-a572-4f5d-b3ef-a1f1266e5eac",
+                  "question": "Hoe vaak wordt je 3rd party apps geupdate?",
+                  "label": "Update 3rd party apps",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "a63915da-808d-4218-8594-165867dc82e2",
+                      "answer": "Automatisch",
+                      "score": 10
+                    },
+                    {
+                      "id": "0c1876bd-dacf-45ad-bcb5-a55a6a3521c7",
+                      "answer": "Elke dag",
+                      "score": 6
+                    },
+                    {
+                      "id": "33c7b890-08a6-4e85-8c47-16f45206470a",
+                      "answer": "Elke week",
+                      "score": 4
+                    },
+                    {
+                      "id": "a40129cb-6739-4716-993d-a72d1e0762dc",
+                      "answer": "Elke maand",
+                      "score": 2
+                    },
+                    {
+                      "id": "0dc2f782-414a-4275-85bf-13f4f329f7da",
+                      "answer": "Elk jaar",
+                      "score": 1
+                    },
+                    {
+                      "id": "9876b0e7-2db9-4ece-876c-48cfd780baad",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            },
+            {
+              "label": "Security",
+              "description": "",
+              "questions": [
+                {
+                  "id": "a98d2a42-c16c-4899-ba87-58324df84bd1",
+                  "question": "Hoe beveilig jij je Internet of Things-apparaten, zoals een webcam of microfoon?",
+                  "label": "Beveiliging Internet of Things",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "06cebe34-f141-4e6b-99af-6769db8909fa",
+                      "answer": "Geen idee, ik weet niet hoe dat moet",
+                      "score": 1
+                    },
+                    {
+                      "id": "adda376f-4f31-47b3-b8eb-bd872cfbc1ff",
+                      "answer": "Niet. Die zijn 'Plug-and-Play'",
+                      "score": 2
+                    },
+                    {
+                      "id": "b0a6720e-8f0c-4bfe-abfb-6628edff981b",
+                      "answer": "Ik pas de fabrieksinstellingen aan",
+                      "score": 10
+                    },
+                    {
+                      "id": "9584b5a3-1e63-4d1c-8378-10324b278c4b",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "725b5d94-7e07-42ef-a740-d42849f650cb",
+                  "question": "Kan je op afstand data van mobiele apparaten wissen?",
+                  "label": "Wissen op afstand",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "147071bc-874b-4eb4-ae60-fe430b14667e",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "8f297dd6-85cf-4daf-95d3-91eab40b5fd9",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "d6d3292f-e7ec-4081-bc15-0200821901b0",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "858677cf-fdc9-4e3b-9dc8-ee86c079aeac",
+                  "question": "Is er een extra beveiligingslaag aanwezig die kwaadaardige websites blokkeert voordat ze het bedrijfsnetwerk binnenkomen?",
+                  "label": "Threat protection",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "7ea2c091-f273-408d-aa73-e97cd3bfdb5d",
+                      "answer": "Ja, we gebruiken Cisco Umbrella",
+                      "score": 10
+                    },
+                    {
+                      "id": "0d7abf0f-15af-48aa-b34e-f986466fbaae",
+                      "answer": "Ja, we gebruiken een ander product",
+                      "score": 6
+                    },
+                    {
+                      "id": "ee9ce46b-3b7f-4c30-abf6-9998444dda6d",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "8b229861-8069-454f-a07f-f2e26db5084b",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            }
+          ]
+        },
+//section 7
+        {
+          "label": "Netwerk en Systeem",
+          "description": "",
+          "tags": null,
+          "categories": [
+            {
+              "label": "Security",
+              "description": "",
+              "questions": [
+                {
+                  "id": "6af73805-e04c-4652-b26b-d6a2be8fe497",
+                  "question": "Is er een firewall aanwezig?",
+                  "label": "Firewall",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "68386f7a-146b-452d-aaa9-ba5338db89e2",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "bad8e3c0-683d-4455-b214-9bc3e286a2ef",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "f977ee92-806b-4fe8-964a-7a5e570cd6bf",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "b6bfe324-4bbe-4edc-a852-8073facd1292",
+                  "question": "Wordt de server van jouw bedrijf beheerd?",
+                  "label": "Beheer server",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "0ff85dab-e282-4d5e-ab9f-8a77a33e47c8",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "6fc7e13b-9ac4-4a15-93d8-a52d91145e3a",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "37e22069-3594-4fca-8a75-f3c18c97353c",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "b74d6ef9-c6b0-4bc5-b73e-f19d4d4b9a77",
+                  "question": "Kunnen derden (zoals gasten) via het netwerk van het bedrijf het internet benaderen?",
+                  "label": "Toegankelijkheid netwerk",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "7374556e-ac71-49a7-9ba3-d9d5827b6fb4",
+                      "answer": "Ja, via Wi-Fi-access, geen wachtwoord nodig",
+                      "score": 2
+                    },
+                    {
+                      "id": "82b2998e-80f4-41c0-95d2-a421a5916dd2",
+                      "answer": "Ja, via Wi-Fi -access met een vast wachtwoord dat voor iedereen gelijk is",
+                      "score": 2
+                    },
+                    {
+                      "id": "8a2f7806-04d2-4452-933d-fa960fa19f3e",
+                      "answer": "Ja, via Wi-Fi acces met een wisselend wachtwoord dat voor iedereen gelijk is en blijft.",
+                      "score": 2
+                    },
+                    {
+                      "id": "ef9b94cc-bfe3-43cb-84f0-c66b75f7a13f",
+                      "answer": "Ja, via Wi-Fi -access met een persoonlijke inlog naam en code",
+                      "score": 2
+                    },
+                    {
+                      "id": "cc26da9b-126d-464a-9b88-138eb4e80772",
+                      "answer": "Ja, er is hiervoor een speciaal gasten netwerk",
+                      "score": 10
+                    },
+                    {
+                      "id": "4cc8254b-2214-4b10-916f-44303925a3ac",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "7f333348-64df-431a-a64c-250036981630",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            },
+            {
+              "label": "Wifi",
+              "description": "",
+              "questions": [
+                {
+                  "id": "61e80fa3-0cbd-4a06-bc63-84427da78286",
+                  "question": "Is er ook een gastennetwerk? (wifi)",
+                  "label": "Gastennetwerk",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "9ca4f253-84f4-4fd2-9321-cd1d9113ef0d",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "e31a03f0-e047-4300-8f16-43b79f5a05ec",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "e9046704-655b-4e89-8bf7-52fbc4866249",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "39ef9de2-5990-448c-a257-05dbf12a64e6",
+                  "question": "Is de Wifi beveiligd?",
+                  "label": "Beveiliging wifi",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "e8411cd3-0a8a-4be0-bd0a-b1435c920da6",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "23feaf26-30fc-4f0a-a33e-2dd9d7a4aba5",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "c69df896-7efb-42e6-a49f-da2d475c55fd",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            }
+          ]
+        },
+//section 8
+        {
+          "label": "Fysiek",
+          "description": "",
+          "tags": null,
+          "categories": [
+            {
+              "label": "Serverruimte",
+              "description": "",
+              "questions": [
+                {
+                  "id": "c6f9e472-dcfc-4a4b-ad7a-9afa9aef2c00",
+                  "question": "Is de serverkast afsluitbaar?",
+                  "label": "Serverkast",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "837ab465-9d46-4a6c-805c-48f1e483479a",
+                      "answer": "Ja, de serverkast is afsluitbaar. 2 mensen hebben hiervoor een sleutel",
+                      "score": 10
+                    },
+                    {
+                      "id": "967ed5bf-ba9a-4175-b1a1-791af40f6345",
+                      "answer": "Ja, de serverkast is afsluitbaar. Iedereen heeft hiervoor een sleutel",
+                      "score": 6
+                    },
+                    {
+                      "id": "3c4e74a9-432c-402a-b40c-c61e09f428ef",
+                      "answer": "Nee, de deur kan wel dicht, maar niet op slot",
+                      "score": 2
+                    },
+                    {
+                      "id": "d400f71b-b35c-4139-86b2-7ba0e51e4bee",
+                      "answer": "Nee, het staat in een open ruimte",
+                      "score": 1
+                    },
+                    {
+                      "id": "832fec5c-4986-404d-a379-5a6106ff8331",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            },
+            {
+              "label": "Beheer",
+              "description": "",
+              "questions": [
+                {
+                  "id": "0f71731b-890a-40b6-839a-7990ffe80fc8",
+                  "question": "Wie heeft de sleutel van de serverkast?",
+                  "label": "Toegang serverkast",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "5cc4285e-39ce-4746-88ee-a64c7d05f919",
+                      "answer": "Eigenaar/ directeur",
+                      "score": 10
+                    },
+                    {
+                      "id": "ec8d6983-da6f-4c0f-ad75-2ccf1ab4749e",
+                      "answer": "Externe partij",
+                      "score": 2
+                    },
+                    {
+                      "id": "df0ac90c-36e2-4768-9c9e-62cb7c56ef70",
+                      "answer": "Interne coordinator",
+                      "score": 10
+                    },
+                    {
+                      "id": "cb9d789e-e820-457c-8d30-0b33aa9f459d",
+                      "answer": "Niemand",
+                      "score": 1
+                    },
+                    {
+                      "id": "5afbbee2-b243-43cc-912d-f9e40f28869d",
+                      "answer": "IT-afdeling",
+                      "score": 6
+                    },
+                    {
+                      "id": "5aa5bfbf-35ba-40d8-8ea4-3dfd2593f657",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "a8b62ad8-08b5-4410-b9a8-e519bea90ead",
+                  "question": "Is er registratie van sleuteluitgifte?",
+                  "label": "Registratie sleuteluitgifte",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "3358165d-2f7f-401a-bbfc-823e64ca7e86",
+                      "answer": "Ja, de registratie wordt door de administratie uitgevoerd",
+                      "score": 0
+                    },
+                    {
+                      "id": "4dff9c7c-be7e-4f32-a269-a66c7f32b0de",
+                      "answer": "Ja, de registratie wordt door de IT-manager uitgevoerd",
+                      "score": 0
+                    },
+                    {
+                      "id": "5175e217-b0c5-4ff6-90ed-a9730d38972c",
+                      "answer": "Ja, de registratie wordt door mijzelf uitgevoerd",
+                      "score": 0
+                    },
+                    {
+                      "id": "28feaea3-56a2-44ca-9440-b85e45b5468a",
+                      "answer": "Nee, dit wordt niet geregistreerd",
+                      "score": 0
+                    },
+                    {
+                      "id": "642460a7-7879-40bc-82d1-59e9565ac48d",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            },
+            {
+              "label": "Beveiliging",
+              "description": "",
+              "questions": [
+                {
+                  "id": "a0b5d62f-b57a-4a2e-a842-768600fd6977",
+                  "question": "Maken jullie gebruik van camerabeveiliging?",
+                  "label": "Camerabeveiliging",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "7524feb2-6f85-4069-81da-f63781d62987",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "7dd2725d-ae50-464e-8776-3e110a5d0976",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "bd95796c-9e3b-41c4-a482-bdb35aa7989b",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "5dbb3ed3-8da0-4286-950a-dd38005542ed",
+                  "question": "Wat voor soort camera's gebruiken jullie?",
+                  "label": "Soort camera's",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "High",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "7d043a2a-dcc3-4658-b6e9-9b0a8deefec3",
+                      "answer": "Meraki Cloud Managed Smart Camera's",
+                      "score": 10
+                    },
+                    {
+                      "id": "49ad94b3-cb4e-4e20-aff5-90174c58966e",
+                      "answer": "Anders",
+                      "score": 1
+                    },
+                    {
+                      "id": "1826162b-f096-460e-b761-53a0ef4a46ed",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "0a75244e-304f-44e7-9276-0d03688f31c0",
+                  "question": "Hoe lang bewaar je deze beelden?",
+                  "label": "Bewaren van beelden",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Choice",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "f3078d67-f792-47cb-9a8d-8a5885df9ace",
+                      "answer": "24 uur",
+                      "score": 10
+                    },
+                    {
+                      "id": "dc8ada10-ecc2-4b7f-8cce-35f4daa37b07",
+                      "answer": "Week",
+                      "score": 6
+                    },
+                    {
+                      "id": "a3a6c26e-71fb-4424-bf6c-b502c2360aa6",
+                      "answer": "Maand",
+                      "score": 4
+                    },
+                    {
+                      "id": "8ab8d2fd-ddc8-4e73-a558-fb9904861038",
+                      "answer": "Ja",
+                      "score": 2
+                    },
+                    {
+                      "id": "f6a68677-c139-4e1a-b462-f5ba4e881480",
+                      "answer": "Niet",
+                      "score": 1
+                    },
+                    {
+                      "id": "1b4db827-879b-41df-af95-83baf49a0256",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                },
+                {
+                  "id": "51c7d842-cc0d-496f-8301-12dda2bc1a31",
+                  "question": "Is beveiligd printen ingeschakeld?",
+                  "label": "Beveiligd printen",
+                  "reason": "",
+                  "reference": "",
+                  "type": "Closed",
+                  "priority": "Medium",
+                  "answer": null,
+                  "answerOptions": [
+                    {
+                      "id": "b72d79b0-567f-4a94-b403-38e0959dadbd",
+                      "answer": "Ja",
+                      "score": 10
+                    },
+                    {
+                      "id": "bfeee785-1855-4742-906d-6080eb13ea96",
+                      "answer": "Nee",
+                      "score": 1
+                    },
+                    {
+                      "id": "f6d1fbf5-c07f-43b7-9bda-fe3bc29b78a9",
+                      "answer": "NVT",
+                      "score": 0
+                    }
+                  ],
+                  "answerId": null
+                }
+              ]
+            }
+          ]
+        },
+//section 9
+        {
+          "label": "Algemeen",
+          "description": "",
+          "tags": null,
+          "categories": [
+            {
+              "label": "Persoonlijk",
+              "description": "",
+              "questions": [
+                {
+                  "id": "c3a52f21-c2a6-474a-bc37-3cd3f2ba5075",
+                  "question": "Wat is jouw naam?",
+                  "label": "Naam",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                },
+                {
+                  "id": "fae515e8-4ffe-4f6d-bfee-206364e485d9",
+                  "question": "Wat is jouw e-mailadres? Op dit e-mailadres ontvang je de score.",
+                  "label": "e-mailadres",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                },
+                {
+                  "id": "5fed9551-aec6-420f-9a7c-4a095a76cea6",
+                  "question": "Wat is je klantnummer?",
+                  "label": "Klantnummer",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                },
+                {
+                  "id": "d54034e0-5878-4569-98ec-efcce79c27e2",
+                  "question": "Voor welk bedrijf ben jij werkzaam?",
+                  "label": "Naam bedrijf",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                },
+                {
+                  "id": "79da92de-afdb-4f3a-a040-86fe8e68451c",
+                  "question": "Wat is de website van je bedrijf?",
+                  "label": "Website bedrijf",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                },
+                {
+                  "id": "feaecacc-37ab-4df2-a86b-c29bfa573d33",
+                  "question": "Wat is jouw functie binnen deze organisatie?",
+                  "label": "Functie",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                },
+                {
+                  "id": "bb021862-6209-423a-a64c-456cab7fcc81",
+                  "question": "In welke branche is deze organisatie actief?",
+                  "label": "Branche organisatie",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                },
+                {
+                  "id": "0e7ef5c1-4a7f-4c18-877b-7a747188c894",
+                  "question": "Hoe groot is deze organisatie?",
+                  "label": "Grootte organisatie",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                },
+                {
+                  "id": "c294d36b-cec3-4c0b-9221-f0b862c0d808",
+                  "question": "Welke items vind jij het belangrijkste (quick wins) om op te lossen?",
+                  "label": "Quick wins",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                },
+                {
+                  "id": "5430da53-f4fe-4358-8161-afc4bb062ba6",
+                  "question": "Mogen we vrijblijvend een offerte uitbrengen?",
+                  "label": "Offerte ja/nee",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                },
+                {
+                  "id": "ecadd5a6-a0d7-4e05-ac6d-bedebde7b67a",
+                  "question": "Je bent bij het einde gekomen van de Security Scan. Heb je nog opmerkingen over de scan, stel dan hieronder je vraag.",
+                  "label": "Opmerkingen",
+                  "reason": "NVT",
+                  "reference": "",
+                  "type": "Open",
+                  "priority": "None",
+                  "answer": null,
+                  "answerOptions": null,
+                  "answerId": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ];

@@ -1,0 +1,37 @@
+.pie-chart, .area-chart, .doughnut-chart, .line-chart, .bar-chart {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  padding: 20px; 
+  height: 375px;
+  display: block;
+  position: relative;
+  border-radius: 10px;
+
+  @media(max-width: 568px) {
+      height: 400px;
+      padding: 5px;
+      margin-bottom: 5px;  
+  }   
+}
+
+.chart-height-setter{
+  height: 250px;
+
+  @media(max-width: 568px) {
+    height: 300px; 
+  }   
+}
+.header-chart {
+  text-align: center; 
+
+  @media(max-width: 568px) {
+    padding-top: 10px;
+  }   
+}
+
+.chart-info{
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  z-index:2;
+}
